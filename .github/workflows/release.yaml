@@ -49,13 +49,13 @@ jobs:
       id: prep
       run: |
         CATEGORY="apps"
-        echo "category=${CATEGORY}" >> $GITHUB_OUTPUT
+        echo ::set-output name=category::${CATEGORY}
         VERSION=$(head -1 ./${CATEGORY}/${{ matrix.container }}/Dockerfile | sed 's/^FROM.*://' )
         VERSION="${VERSION#*v}"
-        echo "version=${VERSION}" >> $GITHUB_OUTPUT
+        echo ::set-output name=version::${VERSION}
         PLATFORM=$(cat ./${CATEGORY}/${{ matrix.container }}/PLATFORM)
-        echo "platform=${PLATFORM}" >> $GITHUB_OUTPUT
-        echo push::true
+        echo ::set-output name=platform::${PLATFORM}
+        echo ::set-output name=push::true
 
     - name: Set up QEMU
       uses: docker/setup-qemu-action@v2
