@@ -45,7 +45,11 @@
       "matchUpdateTypes": ["major", "minor", "patch"],
       "matchPackageNames": [
         "docker.io/stakater/reloader",
-        "docker.io/gotson/komga",
+        "docker.io/vaultwarden/server",
+        "docker.io/blakeblackshear/frigate",
+        "docker.io/jacobalberty/unifi",
+        "docker.io/esphome/esphome",
+        "docker.io/gitea/gitea",
         "docker.io/renovate/renovate"
       ]
     }
