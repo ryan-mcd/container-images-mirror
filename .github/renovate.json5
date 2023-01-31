@@ -50,6 +50,7 @@
         "docker.io/jacobalberty/unifi",
         "docker.io/esphome/esphome",
         "docker.io/gitea/gitea",
+        "docker.io/deluan/navidrome",
         "docker.io/renovate/renovate"
       ]
     }
