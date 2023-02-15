@@ -1,3 +1,3 @@
-FROM docker.io/neuvector/updater:5.1.0
+FROM docker.io/neuvector/updater:5
 
 LABEL "org.opencontainers.image.source"="https://github.com/ryan-mcd/container-images-mirror"
