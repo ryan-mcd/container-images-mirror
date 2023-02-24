@@ -58,7 +58,7 @@
         "docker.io/neuvector/updater",
         "docker.io/istio/proxy-v2",
         "docker.io/istio/install-cni",
-        "docker.io/istio/install-pilot",
+        "docker.io/istio/pilot",
         "docker.io/renovate/renovate"
       ]
     }
