@@ -1,3 +1,3 @@
-FROM docker.io/gitea/gitea:1.21.10-rootless
+FROM docker.io/gitea/gitea:1.21.11-rootless
 
 LABEL "org.opencontainers.image.source"="https://github.com/ryan-mcd/container-images-mirror"
