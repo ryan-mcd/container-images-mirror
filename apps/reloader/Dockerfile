@@ -1,3 +1,3 @@
-FROM docker.io/stakater/reloader:v1.0.101
+FROM docker.io/stakater/reloader:v1.0.103
 
 LABEL "org.opencontainers.image.source"="https://github.com/ryan-mcd/container-images-mirror"
