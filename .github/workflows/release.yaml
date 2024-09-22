@@ -63,7 +63,7 @@ jobs:
         echo ::set-output name=owner_lc::${OWNER_LC}
 
     - name: Set up QEMU
-      uses: docker/setup-qemu-action@v2
+      uses: docker/setup-qemu-action@v3
       with:
         platforms: amd64,arm64
 
