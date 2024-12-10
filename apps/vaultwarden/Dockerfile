@@ -1,3 +1,3 @@
-FROM docker.io/vaultwarden/server:1.32.5
+FROM docker.io/vaultwarden/server:1.32.6
 
 LABEL "org.opencontainers.image.source"="https://github.com/ryan-mcd/container-images-mirror"
